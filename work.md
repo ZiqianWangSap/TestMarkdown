@@ -29,7 +29,7 @@ These is Git knowledge in CTSM.
 ## How to rollback to previous commit
 
 1. Find the previous commit ID by commit ‘Git log’ or tool ‘source tree’.  
-   ![](2020-08-14-12-15-37.png)
+   ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/2020-08-14-12-15-37.png?raw=true)
 2. Reset to previous commit id  
 `$ Git rest –hard 385cbaf`  
 ![](2020-08-14-12-16-49.png)
