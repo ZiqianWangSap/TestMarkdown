@@ -29,13 +29,13 @@ These is Git knowledge in CTSM.
 ## How to rollback to previous commit
 
 1. Find the previous commit ID by commit ‘Git log’ or tool ‘source tree’.  
-   ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/2020-08-14-12-15-37.png?raw=true)
+   ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback1.png?raw=true)
 2. Reset to previous commit id  
 `$ Git rest –hard 385cbaf`  
-![](2020-08-14-12-16-49.png)
-3. Fix conflict and commit your change
+![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback2.png?raw=true)
+1. Fix conflict and commit your change
 `$ Git rebase --continue`
-![](2020-08-14-12-17-32.png)
+![]([2020-08-14-12-17-32.png](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback3.png?raw=true))
 
 
 ## How to create new branch 
@@ -44,4 +44,4 @@ These is Git knowledge in CTSM.
 `$ Git checkout -b "new branch"`
 2. Upload new branch to git web & set remote
 `$ Git push -u origin "new branch"`
-![](2020-08-14-12-19-17.png)
+![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/newBranch1.png?raw=true)
