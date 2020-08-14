@@ -41,12 +41,12 @@ These is some Git knowledge in CTSM.
    ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback1.png?raw=true)
 2. Reset to previous commit id  
    ```bash{.line-numbers}
-   $ git merge master
+   $ Git rest –hard 385cbaf
    ```  
     ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback2.png?raw=true)
-1. Fix conflict and commit your change
+3. Fix conflict and commit your change  
     `$ Git rebase --continue`  
-    ![]([2020-08-14-12-17-32.png](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback3.png?raw=true))
+    ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback3.png?raw=true)
 
 
 ## How to create new branch 
