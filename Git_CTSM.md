@@ -45,7 +45,9 @@ These is some Git knowledge in CTSM.
    ```  
     ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback2.png?raw=true)
 3. Fix conflict and commit your change  
-    `$ Git rebase --continue`  
+    ```bash{.line-numbers}
+    $ Git rebase --continue
+    ```  
     ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback3.png?raw=true)
 
 
