@@ -43,10 +43,10 @@ These is some Git knowledge in CTSM.
    ```bash{.line-numbers}
    $ git merge master
    ```  
-![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback2.png?raw=true)
+    ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback2.png?raw=true)
 1. Fix conflict and commit your change
-`$ Git rebase --continue`
-![]([2020-08-14-12-17-32.png](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback3.png?raw=true))
+    `$ Git rebase --continue`  
+    ![]([2020-08-14-12-17-32.png](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/rollback3.png?raw=true))
 
 
 ## How to create new branch 
@@ -59,4 +59,4 @@ These is some Git knowledge in CTSM.
    ```bash{.line-numbers}
    $ Git push -u origin "new branch"
    ``` 
-![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/newBranch1.png?raw=true)
+    ![](https://github.com/ZiqianWangSap/TestMarkdown/blob/master/images/markdown/newBranch1.png?raw=true)
